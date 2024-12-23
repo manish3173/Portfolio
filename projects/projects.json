@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CardSafe-AI",
+    "desc": "CardSafe-AI detects fraudulent credit card transactions with 99.96% accuracy using a Random Forest model. It handles imbalanced data with advanced preprocessing.",
+    "image": "cardsafe-ai",
+    "links": {
+      "code": "https://github.com/manish3173/CardSafe-AI"
+    }
+  },
+  {
+    "name": "Movie Ticket Booking System",
+    "desc": "A real-time platform built using Python (frontend) and MySQL (backend), with user authentication, payment integration, and optimized performance.",
+    "image": "movie-ticket-booking",
+    "links": {
+      "code": "https://github.com/manish3173/Movie-Ticket-Booking-System"
+    }
+  },
+  {
+    "name": "TrafficGuard",
+    "desc": "TrafficGuard enhances network performance with tcpdump, Scapy, and HAProxy. It uses Prometheus and Grafana for visualization and load balancing improvements.",
+    "image": "trafficguard",
+    "links": {
+      "code": "https://github.com/manish3173/TrafficGuard"
+    }
+  },
+  {
+    "name": "Codex",
+    "desc": "Codex is a full-stack coding platform built with Next.js, Express, Tailwind CSS, and MongoDB. It features user authentication and customizable problem sets.",
+    "image": "Codex",
+    "links": {
+      "code": "https://github.com/manish3173/CodeX"
+    }
+  },
+  {
+    "name": "Microservices Communication Using RabbitMQ",
+    "desc": "A scalable microservices architecture with Docker and RabbitMQ for asynchronous communication. Services include health checks, item creation, orders, and stock.",
+    "image": "microservices-rabbitmq",
+    "links": {
+      "code": "https://github.com/manish3173/Microservices-communication-using-RabbitMQ"
+    }
+  },
+  {
+    "name": "Keylogger",
+    "desc": "An advanced keylogger built in Python, featuring keystroke monitoring, screenshot capture, clipboard tracking, and secure data transmission using Twilio and encryption.",
+    "image": "keylogger",
+    "links": {
+      "code": "https://github.com/manish3173/Keylogger"
+    }
+  }
+]
