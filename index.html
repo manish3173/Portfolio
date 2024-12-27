@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Favicon -->
     <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
-    <title>Portfolio | Y Manish Kumar</title>
+    <link id="favicon" rel="shortcut icon" href="assets/images/favicon.png" type="image/x-png">
+
+    <title> Y Manish Kumar</title>
 </head>
 <body oncontextmenu="return false">
 
@@ -161,8 +163,8 @@
 <!-- education section ends -->
 
 
-<!-- work project section starts -->
-<section class="work" id="work">
+<!-- Projects project section starts -->
+<section class="Projects" id="Projects">
 
   <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
 
@@ -175,7 +177,7 @@
 
 
 </section>
-<!-- work project section ends -->
+<!-- Projects project section ends -->
 
 <script>
   // Fetching the JSON data
@@ -286,10 +288,14 @@
           <input type="text" name="name" placeholder="Name" required>
           <i class='fas fa-user'></i>
         </div>
-        <div class="field">
-          <input type="text" name="email" placeholder="Email" required>
+        
+         <div class="field">
+          <input type="email" name="email" id="email" placeholder="Email" required oninput="this.value = this.value.toLowerCase()">
           <i class='fas fa-envelope'></i>
         </div>
+        
+        
+        
         <div class="field">
           <input type="text" name="phone" placeholder="Phone">
           <i class='fas fa-phone-alt'></i>
@@ -324,7 +330,7 @@
           <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
           <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
           <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
-          <a href="#work"><i class="fas fa-chevron-circle-right"></i> projects</a>
+          <a href="#Projects"><i class="fas fa-chevron-circle-right"></i> projects</a>
           <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
       </div>
 
