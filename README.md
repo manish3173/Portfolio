@@ -1,4 +1,4 @@
-# Y Manish Kumar's Portfolio
+#  Portfolio
 
 This portfolio serves as a digital resume, highlighting my work and the technologies I am proficient in. It is designed to provide potential employers and collaborators with a comprehensive view of my capabilities.
 
@@ -17,9 +17,15 @@ This portfolio serves as a digital resume, highlighting my work and the technolo
 
 
 ## Installation Instructions
-1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory.
-3. Open `index.html` in your browser to view the portfolio.
+
+1. Clone the repository
+   
+   ```
+   https://github.com/manish3173/Portfolio.git
+    ```
+
+3. Navigate to the project directory.
+4. Open `index.html` in your browser to view the portfolio.
 
 ## Usage
 To use the portfolio, simply open the `index.html` file in a web browser.
