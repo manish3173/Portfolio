@@ -1285,3 +1285,14 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+/* scroll top ends */
+section.experience {
+  min-height: 30vh !important;
+  padding-bottom: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+.timeline {
+  margin-bottom: 2rem !important;
+  padding-bottom: 2rem !important;
+  min-height: 0 !important;
+}
