@@ -8,7 +8,7 @@
   text-decoration: none;
   outline: none;
   border: none;
-  text-transform: capitalize;
+  text-transform: none;
   transition: all 0.2s linear;
 }
 html {
@@ -918,6 +918,30 @@ input:checked + .slider {
 .experience .content .desc p {
   font-size: 1.2rem;
 }
+
+/* Improve timeline list styling and spacing */
+.experience .content .desc ul {
+  margin: 1rem 0 1.2rem 1.6rem;
+  padding-left: 1.2rem;
+}
+.experience .content .desc li {
+  font-size: 1.25rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.45;
+  color: #0b1630;
+  text-transform: none;
+}
+.experience .content {
+  background-color: #f68c09;
+  position: relative;
+  border-radius: 8px;
+  padding: 1.2rem 1.6rem;
+}
+.experience .content .tag h2 {
+  font-size: 1.7rem;
+  margin: 0;
+}
+/* 
 /* view all button */
 .morebtn {
   display: flex;
