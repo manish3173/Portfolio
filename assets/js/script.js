@@ -28,18 +28,18 @@ $(document).ready(function () {
             }
         });
     });
- $(document).ready(function () {
+    $(document).ready(function () {
         // Check if dark mode is already set in localStorage
         if (localStorage.getItem('darkMode') === 'enabled') {
             $('body').addClass('dark-mode');
         }
-    
+
         // Toggle dark mode on button click
         $('#theme-toggle').click(function () {
             $('body').toggleClass('dark-mode');
             $('.navbar').toggleClass('dark-mode');
             $('footer').toggleClass('dark-mode');
-    
+
             // Save the theme preference in localStorage
             if ($('body').hasClass('dark-mode')) {
                 localStorage.setItem('darkMode', 'enabled');
@@ -48,7 +48,7 @@ $(document).ready(function () {
             }
         });
     });
-    
+
     // smooth scrolling
     $('a[href*="#"]').on('click', function (e) {
         e.preventDefault();
@@ -115,12 +115,12 @@ function showSkills(skills) {
     let skillHTML = "";
     skills.forEach(skill => {
         skillHTML += `
-        <div class="bar">
-              <div class="info">
-                <img src=${skill.icon} alt="skill" />
-                <span>${skill.name}</span>
-              </div>
-            </div>`
+                <div class="bar">
+                            <div class="info">
+                                <img src="${skill.icon}" alt="skill" onerror="this.closest('.bar').remove();" />
+                                <span>${skill.name}</span>
+                            </div>
+                        </div>`
     });
     skillsContainer.innerHTML = skillHTML;
 }
